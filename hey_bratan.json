@@ -4,7 +4,7 @@
   "author": "Custom trained",
   "website": "",
   "trained_languages": ["ru"],
-  "model": "hey_bratan.tflite",
+  "model": "https://raw.githubusercontent.com/ErickWer0/wake-word-models/main/hey_bratan.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.46,
