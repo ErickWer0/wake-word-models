@@ -2,14 +2,14 @@
   "type": "micro",
   "wake_word": "Эй братан",
   "author": "Custom trained",
-  "website": "",
   "trained_languages": ["ru"],
-  "model": "https://raw.githubusercontent.com/ErickWer0/wake-word-models/main/hey_bratan.tflite",
+  "model": "hey_bratan.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.46,
     "sliding_window_size": 10,
     "feature_step_size": 10,
-    "tensor_arena_size": 32000
+    "tensor_arena_size": 32000,
+    "minimum_esphome_version": "2024.7"
   }
 }
